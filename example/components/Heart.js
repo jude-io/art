@@ -32,16 +32,12 @@ export default function Heart() {
       width={surfaceDimensions}
       height={surfaceDimensions / 2}
       style={styles.surface}>
-      <Group
-        x={surfaceDimensions / 2 - 50}
-        y={surfaceDimensions / 4 - 50}
-        visible={true}>
+      <Group x={surfaceDimensions / 2 - 50} y={surfaceDimensions / 4 - 50}>
         <Shape
           d={HEART_SHAPE}
           strokeWidth={5}
           stroke={'#00ff00'}
           fill={gradient}
-          visible={true}
         />
       </Group>
     </Surface>
